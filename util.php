@@ -88,20 +88,11 @@ $code
 
 	    </div>
 		<div align="left" style="padding-left:15px;padding-buttom:0px;">
-			<a href="" >
+			<a href="http://zdcd.online/front/run.php" >
 				<button type="button" class="btn btn-success" >尝试一下</button>
 			</a><br><br>
 		</div>
 	</div>
-
-	<div class="container">
-
-			<div align="right" style="offset:0px;">
-				<a href="http://zdcd.online/front/run.php?code=$code">
-					<button type="button" class="btn btn-success" >尝试一下</button>
-				</a><br><br>
-			</div>
-		</pre>
 	$code
 
 
