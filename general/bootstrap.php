@@ -54,37 +54,38 @@
 	show_head();
 ?>
 	<div class="row" style="margin-left:3%;">
-		<div class="col-xs-1" id="myScrollspy">
+		<div class="col-xs-1" id="myScrollspy" style="padding-right:40px;">
 			<?php
-				$bookmark_list=array("按钮","表格");
+				$bookmark_list=array("Bootstrap简介","网格系统","表格","表单","按钮","导航栏","面板");
 				show_bookmark($bookmark_list);
 			?>
-
 		</div>
 		<div class="col-xs-10">
 
-		<div class="container">
-			<h3>Bootstrap框架</h3>
-			<p>Bootstrap，来自 Twitter，是目前最受欢迎的前端框架。Bootstrap 是基于 HTML、CSS、JAVASCRIPT 的，它简洁灵活，使得 Web 开发更加快捷。</p>
+			<div class="container">
+				<?php
+				show_section_head($bookmark_list,0);
 
-			<?php
-			$code='<!-- 标准的按钮 -->
-	<button type="button" class="btn btn-default">默认按钮</button>
-	<!-- 提供额外的视觉效果，标识一组按钮中的原始动作 -->
-	<button type="button" class="btn btn-primary">原始按钮</button>
-	<!-- 表示一个成功的或积极的动作 -->
-	<button type="button" class="btn btn-success">成功按钮</button>
-	<!-- 信息警告消息的上下文按钮 -->
-	<button type="button" class="btn btn-info">信息按钮</button>
-	<!-- 表示应谨慎采取的动作 -->
-	<button type="button" class="btn btn-warning">警告按钮</button>
-	<!-- 表示一个危险的或潜在的负面动作 -->
-	<button type="button" class="btn btn-danger">危险按钮</button>
-	<!-- 并不强调是一个按钮，看起来像一个链接，但同时保持按钮的行为 -->
-	<button type="button" class="btn btn-link">链接按钮</button>';
-			show_code($code);
-			?>
-		</div>
+
+
+				$code='<!-- 标准的按钮 -->
+<button type="button" class="btn btn-default">默认按钮</button>
+<!-- 提供额外的视觉效果，标识一组按钮中的原始动作 -->
+<button type="button" class="btn btn-primary">原始按钮</button>
+<!-- 表示一个成功的或积极的动作 -->
+<button type="button" class="btn btn-success">成功按钮</button>
+<!-- 信息警告消息的上下文按钮 -->
+<button type="button" class="btn btn-info">信息按钮</button>
+<!-- 表示应谨慎采取的动作 -->
+<button type="button" class="btn btn-warning">警告按钮</button>
+<!-- 表示一个危险的或潜在的负面动作 -->
+<button type="button" class="btn btn-danger">危险按钮</button>
+<!-- 并不强调是一个按钮，看起来像一个链接，但同时保持按钮的行为 -->
+<button type="button" class="btn btn-link">链接按钮</button>';
+				show_section_head($bookmark_list,1);
+				show_code($code);
+				?>
+			</div>
 	</div>
 
 
