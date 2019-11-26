@@ -93,11 +93,25 @@ $code
 			</a><br><br>
 		</div>
 	</div>
+	<h4>运行结果如下</h4>
 	$code
-
-
-
-
 EOT;
+}
+
+function show_bookmark($bookmark_list)
+{
+	echo('<ul class="nav nav-tabs nav-stacked" data-spy="affix" data-offset-top="125">');
+	for($i=0;$i<count($bookmark_list);$i++)
+	{
+		if($i==0)
+		{
+			echo("<li class='active'><a href='#section-$i'>$bookmark_list[$i]</a></li>");
+		}
+		else
+		{
+			echo("<li><a href='#section-$i'>$bookmark_list[$i]</a></li>");
+		}
+	}
+	echo("</ul>");
 }
 ?>
