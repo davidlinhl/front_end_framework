@@ -151,17 +151,17 @@ a:active {
      </style>
 
      <script type="text/javascript">
-    function AddFavorite(sURL, sTitle) {
-        try {
-            window.external.addFavorite(sURL, sTitle);
-        } catch(e) {
-            try {
-                window.sidebar.addPanel(sTitle, sURL, "");
-            } catch(e) {
-                alert("加入收藏失败，请使用 Ctrl+D 进行添加");
-            }
-        }
-    }
+    // function AddFavorite(sURL, sTitle) {
+    //     try {
+    //         window.external.addFavorite(sURL, sTitle);
+    //     } catch(e) {
+    //         try {
+    //             window.sidebar.addPanel(sTitle, sURL, "");
+    //         } catch(e) {
+    //             alert("加入收藏失败，请使用 Ctrl+D 进行添加");
+    //         }
+    //     }
+    // }
 </script>
 
 </head>
@@ -170,36 +170,33 @@ a:active {
         <div class="bg-top-bar">
         </div>
         <div class="nav-top-bar">
-            <span>
+            <!-- <span>
                 如果您喜欢本工具，请
-                <a href="javascript:void(0)" onclick="AddFavorite(document.title,window.location)"
-                >
+                <a href="javascript:void(0)" onclick="AddFavorite(document.title,window.location)">
                     加入收藏
                 </a>
-            </span>
+            </span> -->
         </div>
     </div>
     <div class="w970">
     <div class="logo">
       <p>
-      <a href="http://tools.5axxw.com" target="_blank"><img src="img/tool_logo.png" alt="返回工具首页" title="返回工具首页" width="131" height="73" border="0" /></a>&nbsp;
-      <a href="http://www.5axxw.com" target="_blank"><img src="img/logo.png" alt="我爱学习网首页" title="我爱学习网 首页" width="155" height="56" border="0" /></a>
+      <!-- <a href="http://tools.5axxw.com" target="_blank"><img src="img/tool_logo.png" alt="返回工具首页" title="返回工具首页" width="131" height="73" border="0" /></a>&nbsp; -->
+      <!-- <a href="http://www.5axxw.com" target="_blank"><img src="img/logo.png" alt="我爱学习网首页" title="我爱学习网 首页" width="155" height="56" border="0" /></a> -->
       </p>
     </div>
 
-        <div class="map_list_add">
+        <!-- <div class="map_list_add">
             <div class="sitemap">
                 <div class="sitemap_list clearfix">
                     <ul>
-                        <span style="color:#666666;font-size:16px;">
-                            工具介绍：                        </span>
-                        网页HTML代码在线运行器-测试版 ,本工具可以在线可视化编辑HTML代码，并且可以在线运行测试。请在正确的位置填写好网页代码，点击下边的【运行】按钮即可在线测试运行代码，点击【保存】按钮即可保存当前代码，简单、方便、快捷操作html代码。
+                        <span style="color:#666666;font-size:16px;"></span>
                     </ul>
               </div>
             </div>
 
             <br>
-            <div>
+            <div> -->
 
 <textarea name="content" id="content" style="width:960px;height:400px;visibility:visible;">
 	<?php
@@ -209,10 +206,8 @@ a:active {
 </textarea>
                 <div class="WSt1" style=" text-align:center">
                     <br>
-                    <input class="Sub" type="button" name="Submit" value="运行代码" onclick="runCode('content')"
-                    />
-                    <input class="Sub" type="button" name="Submit2" value="保存代码" onclick="saveCode('content')"
-                    />
+                    <input class="Sub" type="button" name="Submit" value="运行代码" onclick="runCode('content')"/>
+                    <input class="Sub" type="button" name="Submit2" value="保存代码" onclick="saveCode('content')"/>
                 </div>
                 <script type="text/javascript">
                     var lang = new Array();
@@ -249,7 +244,7 @@ a:active {
         </div>
 
         <br>
-        <script type="text/javascript">
+        <!-- <script type="text/javascript">
             var cpro_id = "u1275234";
         </script>
         <script type="text/javascript" src="//cpro.baidustatic.com/cpro/ui/c.js"></script>
@@ -274,7 +269,7 @@ a:active {
             <script type="text/javascript">
 var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
 document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F9f604f900f5e9600424a4d1f9c67ea0c' type='text/javascript'%3E%3C/script%3E"));
-</script>
+</script> -->
 
         </div>
     </div>
