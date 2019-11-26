@@ -202,30 +202,10 @@ a:active {
             <div>
 
 <textarea name="content" id="content" style="width:960px;height:400px;visibility:visible;">
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
-<title>这里填写标题</title>
-<meta name="keywords" content="这里填写关键词" />
-<meta name="description" content="这里填写说明内容" />
-
-<script language="JavaScript" type="text/javascript">
-<!--JS代码位置-->
-</script>
-
-<style type="text/css">
-<!--CSS样式代码位置-->
-</style>
-
-</head>
-
-<body>
-
-这里填写HTML代码
-
-</body>
-</html>
+	<?php
+	$code=$_GET['code'];
+	echo $code;
+	?>
 </textarea>
                 <div class="WSt1" style=" text-align:center">
                     <br>

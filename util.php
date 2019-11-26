@@ -73,14 +73,34 @@ EOT;
 function show_code($code)
 {
 	print <<<EOT
-	<div class="container">
-		<pre name="code" class="brush: html">
-			<xmp>
+	<div class="panel panel-default">
+	    <div class="panel-heading">
+	        <h3 class="panel-title">
+				示例
+	        </h3>
+	    </div>
+	    <div class="panel-body">
+			<pre name="code" class="brush: html" style="margin:0px;">
+				<xmp>
 $code
-			</xmp>
-			<a href="https://www.runoob.com/try/try.php?filename=bootstrap3-table-basic" style>
-				<button type="button" class="btn btn-success">尝试一下</button>
+				</xmp>
+			</pre>
+
+	    </div>
+		<div align="left" style="padding-left:15px;padding-buttom:0px;">
+			<a href="" >
+				<button type="button" class="btn btn-success" >尝试一下</button>
 			</a><br><br>
+		</div>
+	</div>
+
+	<div class="container">
+
+			<div align="right" style="offset:0px;">
+				<a href="http://zdcd.online/front/run.php?code=$code">
+					<button type="button" class="btn btn-success" >尝试一下</button>
+				</a><br><br>
+			</div>
 		</pre>
 	$code
 
