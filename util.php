@@ -19,7 +19,7 @@ function show_head()
 		                </a>
 		                <ul class="dropdown-menu">
 		                    	<li><a href="http://dxy.zdcd.online/front/general/bootstrap.php">Bootstrap</a></li>
-								<li><a href="mi.com">AmazeUI</a></li>
+								<li><a href="http://dxy.zdcd.online/front/general/amazeui.php">AmazeUI</a></li>
 		                </ul>
 		            </li>
 
