@@ -101,7 +101,7 @@ show_head();
 
 
 		<!-- 按钮库 -->
-		<h2>按钮库</h2>
+		<h2>文档/表格</h2>
 		<HR></HR>
 		<div class="row" >
 			<div class="col-sm-4">
