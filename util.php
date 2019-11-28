@@ -88,14 +88,14 @@ $code
 
 	    </div>
 		<div align="left" style="padding-left:15px;padding-buttom:0px;">
-			<a href="http://dxy.zdcd.online/front/run.php?code=$code" >
+			<a href='http://localhost/front/run.php' >
 				<button type="button" class="btn btn-success" >尝试一下</button>
 			</a><br><br>
 		</div>
 	</div>
 	<h4>运行结果如下</h4>
-	$code
 EOT;
+	echo $code;
 }
 
 function show_bookmark($bookmark_list)
@@ -117,7 +117,7 @@ function show_bookmark($bookmark_list)
 
 function show_section_head($bookmark_list,$i)
 {
-	echo("<h4 id='#section-$i'>$bookmark_list[$i]</h4>");
 	echo("<HR></HR>");
+	echo("<h2 id='#section-$i'>$bookmark_list[$i]</h4>");
 }
 ?>
