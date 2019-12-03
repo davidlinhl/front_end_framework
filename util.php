@@ -88,7 +88,7 @@ $code
 
 	    </div>
 		<div align="left" style="padding-left:15px;padding-buttom:0px;">
-			<a href='http://localhost/front/run.php' >
+			<a href='run.php' >
 				<button type="button" class="btn btn-success" >尝试一下</button>
 			</a><br><br>
 		</div>
