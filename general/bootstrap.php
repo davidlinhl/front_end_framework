@@ -74,6 +74,8 @@
 						<h5>
 							Bootstrap 是全球最受欢迎的前端组件库，用于开发响应式布局、移动设备优先的 WEB 项目。
 							Bootstrap4 目前是 Bootstrap 的最新版本，是一套用于 HTML、CSS 和 JS 开发的开源工具集。利用我们提供的 Sass 变量和大量 mixin、响应式栅格系统、可扩展的预制组件、基于 jQuery 的强大的插件系统，能够快速为你的想法开发出原型或者构建整个 app 。
+							<br>
+							<a href="https://getbootstrap.com/"><strong>Bootstrap 官网链接</strong></a>
 						</h5>
 					</div>
 				</div>
@@ -240,7 +242,7 @@
 	</div>
 	</div>
 
-	
+
 	<div class="container" style="margin:50px;">
 		<p align="center" class="mt-5 mb-3 text-muted">© 2019-2020</p>
 	</div>

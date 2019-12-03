@@ -70,7 +70,7 @@ function show_head()
 EOT;
 }
 
-function show_code($code)
+function show_code($code,$show_preview=true)
 {
 	print <<<EOT
 	<div class="panel panel-default">
@@ -95,7 +95,10 @@ $code
 	</div>
 	<h4>运行结果如下</h4>
 EOT;
-	echo $code;
+	if($show_preview)
+	{
+		echo $code;
+	}
 }
 
 function show_bookmark($bookmark_list)
