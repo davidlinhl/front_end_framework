@@ -6,7 +6,7 @@ function show_head()
 	<nav class="navbar navbar-default" role="navigation">
 		<div class="container-fluid">
 		    <div class="navbar-header">
-		        <a class="navbar-brand" href="http://localhost/front">前端框架汇总</a>
+		        <a class="navbar-brand" href="http://dxy.zdcd.online/front">前端框架汇总</a>
 		    </div>
 
 		    <div>
@@ -18,8 +18,8 @@ function show_head()
 		                    <b class="caret"></b>
 		                </a>
 		                <ul class="dropdown-menu">
-		                    	<li><a href="http://localhost/front/general/bootstrap.php">Bootstrap</a></li>
-								<li><a href="http://localhost/front/general/amazeui.php">AmazeUI</a></li>
+		                    	<li><a href="http://dxy.zdcd.online/front/general/bootstrap.php">Bootstrap</a></li>
+								<li><a href="http://dxy.zdcd.online/front/general/amazeui.php">AmazeUI</a></li>
 		                </ul>
 		            </li>
 
@@ -30,7 +30,7 @@ function show_head()
 							<b class="caret"></b>
 						</a>
 						<ul class="dropdown-menu">
-								<li><a href="baidu.com">Bootstrap</a></li>
+								<li><a href="http://dxy.zdcd.online/front/button.php">Bootstrap</a></li>
 								<li><a href="mi.com">AmazeUI</a></li>
 						</ul>
 					</li>
@@ -41,8 +41,8 @@ function show_head()
 							<b class="caret"></b>
 						</a>
 						<ul class="dropdown-menu">
-								<li><a href="http://localhost/front/chart/echart.php">百度Echart</a></li>
-								<li><a href="mi.com">AmazeUI</a></li>
+								<li><a href="http://dxy.zdcd.online/front/chart/echart.php">百度Echart</a></li>
+								<li><a href="http://dxy.zdcd.online/front/chart/echart.php">AmazeUI</a></li>
 						</ul>
 					</li>
 
@@ -52,7 +52,7 @@ function show_head()
 							<b class="caret"></b>
 						</a>
 						<ul class="dropdown-menu">
-								<li><a href="baidu.com">Bootstrap</a></li>
+								<li><a href="http://dxy.zdcd.online/front/chart/echart.php">Bootstrap</a></li>
 								<li><a href="mi.com">AmazeUI</a></li>
 						</ul>
 					</li>
