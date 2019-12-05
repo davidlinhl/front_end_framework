@@ -6,10 +6,17 @@ function show_head()
 	<nav class="navbar navbar-default" role="navigation">
 		<div class="container-fluid">
 		    <div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#example-navbar-collapse">
+					<span class="sr-only">切换导航</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+
 		        <a class="navbar-brand" href="http://dxy.zdcd.online/front">前端框架汇总</a>
 		    </div>
 
-		    <div>
+		    <div class="collapse navbar-collapse" id="example-navbar-collapse">
 		        <!--向左对齐-->
 		        <ul class="nav navbar-nav navbar-left">
 		            <li class="dropdown">
