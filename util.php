@@ -55,8 +55,8 @@ function show_head()
 		        </ul>
 
 				<ul class="nav navbar-nav navbar-right">
-			      <li><a href="#"><span class="glyphicon glyphicon-user"></span> 注册</a></li>
-			      <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> 登录</a></li>
+			      <li><a href="http://dxy.zdcd.online/front/login.php"><span class="glyphicon glyphicon-user"></span> 注册</a></li>
+			      <li><a href="http://dxy.zdcd.online/front/login.php"><span class="glyphicon glyphicon-log-in"></span> 登录</a></li>
 			    </ul>
 
 		    </div>

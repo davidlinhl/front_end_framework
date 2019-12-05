@@ -20,7 +20,7 @@ print <<<EOT
   <div class="col-sm-2"></div>
   <div class="col-sm-3"></div>
   <div class="col-sm-2" align="center">
-    <form class="form-signin" action="" method="post">
+    <form class="form-signin" action="http://dxy.zdcd.online/front/index.php" method="post">
       <img class="mb-4" src="https://www.runoob.com/wp-content/uploads/2017/10/bootstrap-stack.png" alt="" width="72" height="72">
 
       <h1 class="h3 mb-3 font-weight-normal">登录</h1>
