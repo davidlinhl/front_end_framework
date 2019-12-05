@@ -18,10 +18,19 @@
 require_once("../util.php");
 show_head();
 ?>
-	<div class="container">
+
+	<div class="row" style="margin-left:3%;">
+		<div class="col-xs-1" id="myScrollspy" style="padding-right:40px;">
+			<?php
+				$bookmark_list=array("Echart简介","面积图","折线图","百度地图API结合");
+				show_bookmark($bookmark_list);
+			?>
+		</div>
+		<div class="col-xs-10">
+
+
 		<?php
-			$bookmark_list=array("Echart简介","面积图","折线图","百度地图API结合");
-			show_bookmark($bookmark_list);
+
 
 			show_section_head($bookmark_list,0);
 		?>
@@ -39,7 +48,13 @@ show_head();
 			</div>
 		</div>
 
+
+		<div class="container">
+			<?php
+				show_section_head($bookmark_list,1);
+			?>
 		</div>
+
 	    <div id="chart1" style="width: 800;height:500px;"></div>
 	    <script type="text/javascript">
 			var map = new BMap.Map("allmap");
@@ -94,6 +109,28 @@ show_head();
 			myChart.setOption(option);
 	    </script>
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<div class="container">
+			<?php
+			 	show_section_head($bookmark_list,2);
+			?>
+		</div>
 		<div id="chart2" style="width: 800;height:500px;"></div>
 		<script type="text/javascript">
 			var chart2 = echarts.init(document.getElementById('chart2'));
@@ -199,8 +236,11 @@ show_head();
 
 
 
-
-
+		<div class="container">
+			<?php
+				show_section_head($bookmark_list,3);
+			?>
+		</div>
 
 		<div id="chart3" style="width: 800;height:1000px;"></div>
 		<script type="text/javascript">
@@ -793,7 +833,8 @@ show_head();
     </script> -->
 
 
+</div>
 
-	</div>
+<?php show_footer(); ?>
 </body>
 </html>

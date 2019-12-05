@@ -116,6 +116,15 @@ function show_bookmark($bookmark_list)
 function show_section_head($bookmark_list,$i)
 {
 	echo("<HR></HR>");
-	echo("<h2 id='#section-$i'>$bookmark_list[$i]</h4>");
+
+	echo("<h2 id='section-$i'>$bookmark_list[$i]</h4>");
+}
+function show_footer()
+{
+	print<<<EOT
+	<div class="container" style="margin-top:200px;">
+		<p align="center" class="mt-5 mb-3 text-muted">韩霖 聂晨飞 刘思佳 All Rights Reserved <br>© 2019-2020</p>
+	</div>
+EOT;
 }
 ?>

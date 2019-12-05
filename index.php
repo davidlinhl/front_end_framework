@@ -156,10 +156,10 @@ show_head();
 
 	</div>
 
-	<div class="container" style="margin-top:200px;">
+	<!-- <div class="container" style="margin-top:200px;">
 		<p align="center" class="mt-5 mb-3 text-muted">韩霖 聂晨飞 刘思佳 All Rights Reserved <br>© 2019-2020</p>
-	</div>
-
+	</div> -->
+	<?php show_footer(); ?>
 
 </body>
 </html>

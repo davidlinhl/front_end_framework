@@ -56,7 +56,7 @@
 	<div class="row" style="margin-left:3%;">
 		<div class="col-xs-1" id="myScrollspy" style="padding-right:40px;">
 			<?php
-				$bookmark_list=array("Bootstrap简介","网格系统","按钮","表单","按钮","导航栏","面板");
+				$bookmark_list=array("Bootstrap简介","网格系统","按钮","表单","轮播图");
 				show_bookmark($bookmark_list);
 			?>
 		</div>
@@ -194,7 +194,7 @@
     </div>
   </div>
 </form>';
-				show_section_head($bookmark_list,2);
+				show_section_head($bookmark_list,3);
 				show_code($code);
 
 				$code=
@@ -230,7 +230,7 @@
         <span class="sr-only">Next</span>
     </a>
 </div>';
-				show_section_head($bookmark_list,1);
+				show_section_head($bookmark_list,4);
 				show_code($code);
 
 				?>
@@ -243,10 +243,6 @@
 	</div>
 
 
-	<div class="container" style="margin:50px;">
-		<p align="center" class="mt-5 mb-3 text-muted">© 2019-2020</p>
-	</div>
-
-
+<?php show_footer(); ?>
 </body>
 </html>
