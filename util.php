@@ -19,7 +19,7 @@ function show_head()
 		                </a>
 		                <ul class="dropdown-menu">
 		                    	<li><a href="http://dxy.zdcd.online/front/general/bootstrap.php">Bootstrap</a></li>
-								<li><a href="http://dxy.zdcd.online/front/general/amazeui.php">AmazeUI</a></li>
+								<li><a href="http://dxy.zdcd.online/front/general/aui.php">AUI</a></li>
 		                </ul>
 		            </li>
 
@@ -30,8 +30,8 @@ function show_head()
 							<b class="caret"></b>
 						</a>
 						<ul class="dropdown-menu">
-								<li><a href="http://dxy.zdcd.online/front/button.php">Bootstrap</a></li>
-								<li><a href="mi.com">AmazeUI</a></li>
+								<li><a href="http://dxy.zdcd.online/front/button/buttons.php">Buttons</a></li>
+								<li><a href="http://dxy.zdcd.online/front/button/bttn.php">bttn.css</a></li>
 						</ul>
 					</li>
 
@@ -42,18 +42,6 @@ function show_head()
 						</a>
 						<ul class="dropdown-menu">
 								<li><a href="http://dxy.zdcd.online/front/chart/echart.php">百度Echart</a></li>
-								<li><a href="http://dxy.zdcd.online/front/chart/echart.php">AmazeUI</a></li>
-						</ul>
-					</li>
-
-					<li class="dropdown">
-						<a href="#" class="dropdown-toggle" data-toggle="dropdown">
-							文件
-							<b class="caret"></b>
-						</a>
-						<ul class="dropdown-menu">
-								<li><a href="http://dxy.zdcd.online/front/chart/echart.php">Bootstrap</a></li>
-								<li><a href="mi.com">AmazeUI</a></li>
 						</ul>
 					</li>
 
