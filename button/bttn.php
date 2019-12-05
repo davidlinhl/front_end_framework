@@ -55,7 +55,7 @@
 require_once("../util.php");
 show_head();
 ?>
-	<iframe id="iframe" src="https://bttn.surge.sh/" width="100%" height="700px" style="overflow-y: scroll; border: 2px solid #ddd !important;" seamless></iframe>
+	<iframe id="iframe" src="https://bttn.surge.sh/" width="100%" height="1100px" style="overflow-y: scroll; border: 2px solid #ddd !important;" seamless></iframe>
 	<script type="text/javascript">
 	$(document).ready(function(){
 		  $("#but").click(function(){

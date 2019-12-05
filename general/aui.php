@@ -57,7 +57,7 @@
 	<div class="row" style="margin-left:3%;">
 		<div class="col-xs-1" id="myScrollspy" style="padding-right:40px;">
 			<?php
-				$bookmark_list=array("Aui简介","文本样式","导航栏","表单","按钮","导航栏","面板");
+				$bookmark_list=array("Aui简介","文本样式","导航栏","进度条");
 				show_bookmark($bookmark_list);
 			?>
 		</div>
@@ -82,6 +82,7 @@
 					</div>
 				</div>
 
+
 				<?php
 				show_section_head($bookmark_list,1);
 
@@ -98,7 +99,6 @@
 内容区域，AUI 2.0色彩及尺寸按照Material Design标准设计
 </div>
 </section>';
-				show_section_head($bookmark_list,1);
 				show_code($code,false);
 				?>
 				<iframe src="http://aui.dianm.cc/aui2.0/html/text_frm.html" height="500" width="700" style="overflow-y: scroll; border: 2px solid #ddd !important;"></iframe>
@@ -150,13 +150,12 @@
     </a>
 </header>
 ';
-				show_section_head($bookmark_list,1);
 				show_code($code,false);
 				?>
 				<iframe src="http://aui.dianm.cc/aui2.0/html/header_frm.html" height="500" width="700" style="overflow-y: scroll; border: 2px solid #ddd !important;"></iframe>
 
 				<?php
-				show_section_head($bookmark_list,2);
+				show_section_head($bookmark_list,3);
 
 				$code='
 <div class="aui-content-padded">
@@ -188,5 +187,6 @@
 
 	</div>
 	</div>
+	<?php show_footer(); ?>
 </body>
 </html>
