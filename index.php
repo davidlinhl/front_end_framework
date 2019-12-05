@@ -26,13 +26,19 @@ show_head();
 			<!-- 轮播（Carousel）项目 -->
 			<div class="carousel-inner">
 				<div class="item active" align="center">
-					<img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1576157778&di=ad56a4ef7ea35e2480a38f28b225729f&imgtype=jpg&er=1&src=http%3A%2F%2Fimage.uisdc.com%2Fwp-content%2Fuploads%2F2016%2F04%2Ffull-bootstrap-4-illustrator-gui-pack.jpg" alt="Bootstrap">
+					<a href="https://getbootstrap.com/">
+						<img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1576157778&di=ad56a4ef7ea35e2480a38f28b225729f&imgtype=jpg&er=1&src=http%3A%2F%2Fimage.uisdc.com%2Fwp-content%2Fuploads%2F2016%2F04%2Ffull-bootstrap-4-illustrator-gui-pack.jpg" alt="Bootstrap">
+					</a>
 				</div>
 				<div class="item" align="center">
-					<img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1575563127459&di=4bc458872565ad71576baad06f2987ad&imgtype=jpg&src=http%3A%2F%2Fimg3.imgtn.bdimg.com%2Fit%2Fu%3D1883631393%2C1515687533%26fm%3D214%26gp%3D0.jpg" alt="Amaze UI">
+					<a href="https://amazeui.clouddeep.cn/">
+						<img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1575563127459&di=4bc458872565ad71576baad06f2987ad&imgtype=jpg&src=http%3A%2F%2Fimg3.imgtn.bdimg.com%2Fit%2Fu%3D1883631393%2C1515687533%26fm%3D214%26gp%3D0.jpg" alt="Amaze UI">
+					</a>
 				</div>
 				<div class="item" align="center">
-					<img src="https://www.echartsjs.com/en/images/index-feature.jpg" alt="Baidu Echart">
+					<a href="https://www.echartsjs.com/en/index.html">
+						<img src="https://www.echartsjs.com/en/images/index-feature.jpg" alt="Baidu Echart">
+					</a>
 				</div>
 			</div>
 			<!-- 轮播（Carousel）导航 -->
