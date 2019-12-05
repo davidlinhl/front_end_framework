@@ -60,7 +60,12 @@ show_head();
 		<div class="panel panel-primary">
 		    <div class="panel-heading">框架新闻</div>
 		    <ul class="list-group">
-		        <li class="list-group-item">免费域名注册<span class="badge">新</span></li>
+		        <li class="list-group-item">
+					<a href="https://github.com/twbs/bootstrap/releases/tag/v4.4.1">
+						Bootstrap新版发布<span class="badge">新</span>
+					</a>
+				</li>
+				
 		        <li class="list-group-item">免费 Window 空间托管</li>
 		        <li class="list-group-item">图像的数量</li>
 		        <li class="list-group-item">24*7 支持</li>
