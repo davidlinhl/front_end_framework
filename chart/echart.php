@@ -19,6 +19,25 @@ require_once("../util.php");
 show_head();
 ?>
 	<div class="container">
+		<?php
+			$bookmark_list=array("Echart简介","面积图","折线图","百度地图API结合");
+			show_bookmark($bookmark_list);
+
+			show_section_head($bookmark_list,0);
+		?>
+		<div class="row">
+			<div class="col-sm-3">
+				<img src="https://www.echartsjs.com/en/images/logo.png" width="80%">
+			</div>
+			<div class="col-sm-9">
+				<h5>
+					Echart 最初由百度开发，是一套在网页中专门做数据展示的前端库。Echart支持各种类新的图标，例如柱状图，折线图等，也可以与百度地图结合显示基于地图的数据可视化。
+					Echart 目前已经贡献给Apache基金会进行孵化，服务更多开发者。
+					<br>
+					<a href="https://www.echartsjs.com/en/index.html"><strong>Echart 官网链接</strong></a>
+				</h5>
+			</div>
+		</div>
 
 		</div>
 	    <div id="chart1" style="width: 800;height:500px;"></div>

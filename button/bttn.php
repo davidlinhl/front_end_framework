@@ -51,7 +51,11 @@
 
 </head>
 <body οnlοad="prettyPrint()">
-	<iframe id="iframe" src="https://bttn.surge.sh/" width="100%" height="500px" style="overflow-y: scroll; border: 2px solid #ddd !important;" seamless></iframe>
+<?php
+require_once("../util.php");
+show_head();
+?>
+	<iframe id="iframe" src="https://bttn.surge.sh/" width="100%" height="700px" style="overflow-y: scroll; border: 2px solid #ddd !important;" seamless></iframe>
 	<script type="text/javascript">
 	$(document).ready(function(){
 		  $("#but").click(function(){
@@ -62,7 +66,5 @@
 		});
 
 
-	</script>
-	<button id="but">buuuuuutton</button>
 </body>
 </html>
