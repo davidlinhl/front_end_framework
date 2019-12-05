@@ -62,14 +62,21 @@ show_head();
 		    <ul class="list-group">
 		        <li class="list-group-item">
 					<a href="https://github.com/twbs/bootstrap/releases/tag/v4.4.1">
-						Bootstrap新版发布<span class="badge">新</span>
+						Bootstrap新版发布
+					</a>
+					<span class="badge">新</span>
+				</li>
+
+		        <li class="list-group-item">
+					<a href="https://www.echartsjs.com/en/cheat-sheet.html">
+						百度Echart常用图表
 					</a>
 				</li>
-				
-		        <li class="list-group-item">免费 Window 空间托管</li>
-		        <li class="list-group-item">图像的数量</li>
-		        <li class="list-group-item">24*7 支持</li>
-		        <li class="list-group-item">每年更新成本</li>
+		        <li class="list-group-item">
+					<a href="https://blog.getbootstrap.com/2019/11/26/bootstrap-icons/">
+						Bootstrap框架添加新图标
+					</a>
+				</li>
 		    </ul>
 		</div>
 	</div>
